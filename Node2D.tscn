@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ButtonScript.gd" type="Script" id=1]
+[ext_resource path="res://CircleChanger.gd" type="Script" id=2]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 441.737
+margin_top = 477.733
+margin_right = 605.737
+margin_bottom = 577.733
+action_mode = 0
+text = "Click Me!!!"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
